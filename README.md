@@ -89,7 +89,9 @@ touch 1.txt
 
 para crear el tag procedemos a ver los cambios dentro del proyecto y elegiremos una version funcionando
 ```
-git tag -a v0.1 -m "Creacion del tag v0.1" N°commit
+git log --all
+git tag -a v0.1 -m "Creacion del tag v0.1" 69e92a3e484256cbc093fa65decf6fc6ea5b5937
+git log --all
 ```
 
 

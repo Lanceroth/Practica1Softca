@@ -179,6 +179,14 @@ gitk
 ## Arreglar conflicto
 > 22. Arreglar el conflicto anterior y hacer un commit.
 
+Arregle el conflicto usando Visual Studio Code y elegir una de las 3 opciones:
+ambas o una de los opciones de cada rama.
+
+otra forma es usando el comando desde la terminal 
+```
+git mergetool
+```
+
 ## Borrar rama
 > 23. Crear un tag v0.2
 ```

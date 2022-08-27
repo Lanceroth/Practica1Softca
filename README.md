@@ -175,6 +175,7 @@ La segunda forma es con el visor grafico de historia que tiene git, se ejecuta c
 ```
 gitk
 ```
+![Gitk](https://drive.google.com/file/d/18ODLmAk_E6DF6SmI2I19ktrjPJKO9Uib/view?usp=sharing)
 
 ## Arreglar conflicto
 > 22. Arreglar el conflicto anterior y hacer un commit.

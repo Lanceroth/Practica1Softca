@@ -190,7 +190,7 @@ git mergetool
 ## Borrar rama
 > 23. Crear un tag v0.2
 ```
-git tag -a v0.2 -m "Creacion del tag v0.2" N°commit
+git tag -a v0.2 -m "Creacion del tag v0.2" 77c0a183ddde0256666997739474dffaf3874331
 ```
 
 > 24. Borrar la rama v0.2

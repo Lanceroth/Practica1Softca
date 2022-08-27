@@ -204,13 +204,13 @@ git branch -d v0.2
 para borrar del repositorio remoto:
 
 ```
-git push origin :v0.2
+git push origin --delete v0.2
 ```
 
 
 
-
-
+### otros comandos
+```
 git remote set-url origin
 git init
 git config -l
@@ -218,8 +218,6 @@ git config --global user.name
 git config --global user.email "Email"
 git status
 git diff
-git add archivo.txt
-git commit -m "comentarios"
 git log
 git checkout
 git remote -v
@@ -229,10 +227,9 @@ git pull origin master
 git push origin --tags
 git tag -d Merge_arreglado  --borrar tag
 gitk
-
-
 ssh-key -t rsa -b 4096 -C "Email"   --generar de llave ssh
 eval $(ssh-agent -s)   --comprobar proceso y agregarlo
 git remote set-url origin git@github.com:Lanceroth/GitPlatzi.git  --cambiar conexion hhtps a ssh
 alias arbolog-"git log --all --graph --decorate --oneline"    --crar tags
 git show-ref --tags  ----mostrar tags
+```

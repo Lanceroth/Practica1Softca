@@ -216,7 +216,7 @@ git push origin --delete v0.2
 si se esta trabajando en grupos que tenga equipos de mac y win, activar comando
 para los caracteres especiales de saltos de lineas crlf es el siguiente
 ```
-git config --global core.crlf true(win) / input(mac)
+git config --global core.autocrlf true(win) / input(mac)
                               
 ```
 ```

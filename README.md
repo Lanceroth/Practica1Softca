@@ -212,6 +212,13 @@ git push origin --delete v0.2
 
 
 ### otros comandos
+
+si se esta trabajando en grupos que tenga equipos de mac y win, activar comando
+para los caracteres especiales de saltos de lineas crlf es el siguiente
+```
+git config --global core.crlf true(win) / input(mac)
+                              
+```
 ```
 git remote set-url origin
 git init

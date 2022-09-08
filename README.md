@@ -236,7 +236,7 @@ git pull origin master
 git push origin --tags
 git tag -d Merge_arreglado  --borrar tag
 gitk
-ssh-key -t rsa -b 4096 -C "Email"   --generar de llave ssh
+ssh-keygen -t rsa -b 4096 -C "Email"   --generar de llave ssh
 eval $(ssh-agent -s)   --comprobar proceso y agregarlo
 git remote set-url origin git@github.com:Lanceroth/GitPlatzi.git  --cambiar conexion hhtps a ssh
 alias arbolog-"git log --all --graph --decorate --oneline"    --crar tags
